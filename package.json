@@ -1,0 +1,24 @@
+{
+  "name": "tribute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d page",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aggarwal-muskaan/tribute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aggarwal-muskaan/tribute/issues"
+  },
+  "homepage": "https://github.com/aggarwal-muskaan/tribute",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
