@@ -1,0 +1,81 @@
+html,body
+{
+    font-family:BlinkMacSystemFont, "Segoe UI", 
+    "Roboto", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0%;
+    //background-color:rgb(202, 199, 199);
+}
+@media(min-width:320px){
+   
+   #outer{
+      background: #eee;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    #inner1{
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        max-width: 100%;
+        border-radius: 3px;
+        #photo{
+            max-width: 100%;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            display: block;
+            padding-bottom: 10px;
+            height: auto;
+        }
+        #caption{
+            padding:10px;
+            text-align: center;
+            font-weight: lighter;
+            font-size:15px;
+        }
+    }
+    #inner2{
+        order: 3;
+        max-width: 600px;
+        h3{margin: 40px;
+           text-align: center;
+         }
+        li{
+            padding-bottom:30px;
+        }
+       p{
+           padding: 10px;
+       }
+    }
+    }
+}
+@media(min-width:767px){
+    #outer{
+        font-size:25px;
+    }
+    #caption{
+        font-size:25px;
+        letter-spacing:3px;
+    }
+}
+@media(min-width:1200px){
+    #outer{
+        margin: 30px 15px 30px 15px;
+        border-radius: 5px;
+        font-size: inherit;
+         h1{
+        font-size: 40px;
+        }
+       p{
+        margin-top: 3px;
+        }
+        #inner1{
+            display:flex;
+           flex-direction: column;
+            justify-content: space-around;
+        }
+   }
+   
+    
+   
+}
